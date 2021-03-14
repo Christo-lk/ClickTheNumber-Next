@@ -1,13 +1,13 @@
 import { useState } from 'react'
 
-import Hello from '../components/Hello'
+import Number from '../components/Number'
 
 export default function Home() {
 
    return (
      <>    
-    <h1 className="text-red-500">Lets get it Rudeboy</h1>
-    <Hello/>
+    <h1>Click the Number!</h1>
+    <Number/>
     </>    
   )
 }
